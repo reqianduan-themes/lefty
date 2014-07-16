@@ -1,8 +1,8 @@
 ```
 {
-    "name": "ThemeName",
-    "themeURI": "http://themes.xiguabaobao.com/ThemeName/",
-    "description": "ThemeName主题（付费） 技术支持：<a href=\"http://themes.xiguabaobao.com/ThemeName/#respond\">西瓜宝宝主题</a>",
+    "name": "Lefty",
+    "themeURI": "http://themes.xiguabaobao.com/Lefty/",
+    "description": "Lefty主题（免费） BUG反馈：<a href=\"http://themes.xiguabaobao.com/Lefty/#respond\">西瓜宝宝主题</a>",
     "author": "西瓜宝宝主题",
     "authorURI": "http://themes.xiguabaobao.com",
     "version": "1.0",
