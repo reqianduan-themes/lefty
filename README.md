@@ -1,0 +1,18 @@
+```
+{
+    "name": "ThemeName",
+    "themeURI": "http://themes.xiguabaobao.com/ThemeName/",
+    "description": "ThemeName主题（付费） 技术支持：<a href=\"http://themes.xiguabaobao.com/ThemeName/#respond\">西瓜宝宝主题</a>",
+    "author": "西瓜宝宝主题",
+    "authorURI": "http://themes.xiguabaobao.com",
+    "version": "1.0",
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-cssmin": "~0.7.0",
+        "grunt-contrib-uglify": "~0.3.0",
+        "grunt-contrib-less": "~0.11.0",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-csscomb": "~2.0.1"
+    }
+}
+```
