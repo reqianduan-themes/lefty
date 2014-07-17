@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-		<div class="content pure-u-1 pure-u-md-4-5">
+		<div class="content pure-u-1 pure-u-md-3-4">
 			<!-- <div class="entries">
 				<h1 class="content-subhead">Pinned Post</h1>
 

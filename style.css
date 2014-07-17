@@ -14,6 +14,17 @@
             box-sizing: border-box;
 }
 
+html, button, input, select, textarea,
+        .pure-g [class *= 'pure-u']
+{
+    font-family: Helvetica,Tahoma,Arial,'Microsoft Yahei','微软雅黑',STXihei, '华文细黑',SimSun,'宋体',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+
+    color: #ccc;
+}
+
 a
 {
     text-decoration: none;
@@ -109,6 +120,10 @@ h3
     border: 2px solid rgb(61, 146, 201);
 }
 
+.content
+{
+    padding: 2em 1em 0;
+}
 .content-subhead
 {
     font-size: 80%;
@@ -123,22 +138,30 @@ h3
     border-bottom: 1px solid #eee;
 }
 
-.content
+.entries
 {
-    padding: 2em 1em 0;
+    max-width: 750px;
 }
-
 .entry
 {
     padding-bottom: 2em;
 }
 .entry-title
 {
+    font-family: Georgia, 'Times New Roman', Times, 'Kai', 'Kaiti SC', 'KaiTi', 'BiauKai', '楷体', '楷体_GB2312', serif;
     font-size: 2em;
 
     margin-bottom: .2em;
 
     color: #222;
+}
+.entry-title a
+{
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #333;
+    text-shadow: -1px 0 0 #333;
 }
 .entry-avatar
 {
@@ -150,7 +173,7 @@ h3
 }
 .entry-description
 {
-    font-family: Georgia, 'Cambria', serif;
+    /*font-family: Georgia, "Times New Roman", Times, "Kai", "Kaiti SC", "KaiTi", "BiauKai", "楷体", "楷体_GB2312", serif;*/
     line-height: 1.8em;
 
     color: #444;
@@ -209,6 +232,8 @@ h3
     padding: 1em 0;
 
     text-align: center;
+
+    border-top: 1px solid #ddd;
 }
 .footer a
 {
@@ -226,7 +251,7 @@ h3
 {
     .content
     {
-        margin-left: 20%;
+        margin-left: 25%;
         padding: 2em 3em 0;
     }
 

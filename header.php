@@ -31,7 +31,7 @@ Date: 2014-07-12
 </head>
 <body>
 	<div id="layout" class="pure-g">
-		<div class="sidebar pure-u-1 pure-u-md-1-5">
+		<div class="sidebar pure-u-1 pure-u-md-1-4">
 			<div class="header">
 				<hgroup>
 					<h1 class="brand-title">A Sample Blog</h1>

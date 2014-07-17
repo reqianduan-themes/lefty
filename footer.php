@@ -2,13 +2,13 @@
 					<div class="pure-menu pure-menu-horizontal pure-menu-open">
 						<ul>
 							<li>
-								<a href="http://purecss.io/">About</a>
+								<a href="#">关于</a>
 							</li>
 							<li>
-								<a href="http://twitter.com/yuilibrary/">Twitter</a>
+								<a href="#">微博</a>
 							</li>
 							<li>
-								<a href="http://github.com/yui/pure/">GitHub</a>
+								<a href="#">微信</a>
 							</li>
 						</ul>
 					</div>
