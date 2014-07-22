@@ -7,265 +7,53 @@
  * Version: 1.0
  * © 2014 themes.xiguabaobao.com. All rights reserved.
  */
-*
-{
+*{
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 
-html, button, input, select, textarea,
-        .pure-g [class *= 'pure-u']
-{
+html,button,input,select,textarea,.pure-g [class *= 'pure-u']{
     font-family: Helvetica,Tahoma,Arial,'Microsoft Yahei','微软雅黑',STXihei, '华文细黑',SimSun,'宋体',sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.7;
-
-    color: #ccc;
 }
 
-a
-{
-    text-decoration: none;
+a{text-decoration:none;color:#3d92c9}
+a:hover,a:focus{text-decoration:underline}
 
-    color: rgb(61, 146, 201);
-}
-a:hover,
-a:focus
-{
-    text-decoration: underline;
-}
-
-h3
-{
-    font-weight: 100;
-}
-
-/* LAYOUT CSS */
-.pure-img-responsive
-{
-    max-width: 100%;
-    height: auto;
-}
-
-#layout
-{
-    padding: 0;
-}
-
-.header
-{
-    top: auto;
-
-    margin: 3em auto;
-
-    text-align: center;
-}
-
-.sidebar
-{
-    color: #fff;
-    background: rgb(61, 79, 93);
-}
-
-.brand-title,
-.brand-tagline
-{
-    margin: 0;
-}
-.brand-title
-{
-    text-transform: uppercase;
-}
-.brand-tagline
-{
-    font-weight: 300;
-
-    color: rgb(176, 202, 219);
-}
-
-.nav-list
-{
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
-}
-.nav-item
-{
-    display: inline-block;
-    zoom: 1;
-
-    *display: inline;
-}
-.nav-item a
-{
-    font-size: 85%;
-
-    margin-top: 1em;
-
-    letter-spacing: .05em;
-    text-transform: uppercase;
-
-    color: #fff;
-    border: 2px solid rgb(176, 202, 219);
-    background: transparent;
-}
-.nav-item a:hover,
-.nav-item a:focus
-{
-    text-decoration: none;
-
-    border: 2px solid rgb(61, 146, 201);
-}
-
-.content
-{
-    padding: 2em 1em 0;
-}
-.content-subhead
-{
-    font-size: 80%;
-    font-weight: 500;
-
-    padding: .4em 0;
-
-    letter-spacing: .1em;
-    text-transform: uppercase;
-
-    color: #aaa;
-    border-bottom: 1px solid #eee;
-}
-
-.entries
-{
-    max-width: 750px;
-}
-.entry
-{
-    padding-bottom: 2em;
-}
-.entry-title
-{
-    font-family: Georgia, 'Times New Roman', Times, 'Kai', 'Kaiti SC', 'KaiTi', 'BiauKai', '楷体', '楷体_GB2312', serif;
-    font-size: 2em;
-
-    margin-bottom: .2em;
-
-    color: #222;
-}
-.entry-title a
-{
-    font-size: 28px;
-    line-height: 38px;
-
-    color: #333;
-    text-shadow: -1px 0 0 #333;
-}
-.entry-avatar
-{
-    float: right;
-
-    margin-left: 1em;
-
-    border-radius: 50px;
-}
-.entry-description
-{
-    /*font-family: Georgia, "Times New Roman", Times, "Kai", "Kaiti SC", "KaiTi", "BiauKai", "楷体", "楷体_GB2312", serif;*/
-    line-height: 1.8em;
-
-    color: #444;
-}
-.entry-meta
-{
-    font-size: 90%;
-
-    margin: 0;
-
-    color: #999;
-}
-
-.entry-category
-{
-    font-size: 80%;
-
-    margin: 0 .1em;
-    padding: .3em 1em;
-
-    color: #fff;
-    background: #999;
-}
-.entry-category-design
-{
-    background: #5aba59;
-}
-.entry-category-pure
-{
-    background: #4d85d1;
-}
-.entry-category-yui
-{
-    background: #8156a7;
-}
-.entry-category-js
-{
-    background: #df2d4f;
-}
-
-.entry-images
-{
-    margin: 1em 0;
-}
-.entry-image-meta
-{
-    margin-top: -3.5em;
-    margin-left: 1em;
-
-    color: #fff;
-    text-shadow: 0 1px 1px #333;
-}
-
-.footer
-{
-    padding: 1em 0;
-
-    text-align: center;
-
-    border-top: 1px solid #ddd;
-}
-.footer a
-{
-    font-size: 80%;
-
-    color: #ccc;
-}
-.footer .pure-menu a:hover,
-.footer .pure-menu a:focus
-{
-    background: none;
-}
-
-@media (min-width: 48em)
-{
-    .content
-    {
-        margin-left: 25%;
-        padding: 2em 3em 0;
-    }
-
-    .header
-    {
-        margin: 80% 2em 0;
-
-        text-align: right;
-    }
-
-    .sidebar
-    {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-    }
+.pure-img-responsive{max-width:100%;height:auto}
+#layout{padding:0}
+.header{top:auto;margin:3em auto;text-align:center}
+.sidebar{color:#fff;background:#3d4f5d}
+.brand-title,.brand-tagline{margin:0}
+.brand-title{text-transform:uppercase}
+.brand-tagline{font-weight:300;color:#b0cadb}
+.nav-list{margin:0;padding:0;list-style:none}
+.nav-item{display:inline-block;zoom:1;*display:inline}
+.nav-item a{font-size:85%;margin-top:1em;letter-spacing:.05em;text-transform:uppercase;color:#fff;border:2px solid #b0cadb;background:transparent}
+.nav-item a:hover,.nav-item a:focus{text-decoration:none;border:2px solid #3d92c9}
+.content{padding:2em 1em 0}
+.entries{max-width:750px}
+.entry{padding-bottom:2em}
+.entry-title{font-family:Georgia,'Times New Roman',Times,'Kai','Kaiti SC','KaiTi','BiauKai','楷体','楷体_GB2312',serif;font-size:2em;margin-bottom:.2em;color:#222}
+.entry-title a{font-size:28px;line-height:38px;color:#333;text-shadow:-1px 0 0 #333}
+.entry-avatar{float:right;margin-left:1em;border-radius:50px}
+.entry-description{line-height:1.8em;color:#444}
+.entry-meta{font-size:90%;margin:0;color:#999}
+.entry-category{font-size:80%;margin:0 .1em;padding:.3em 1em;color:#fff;background:#999}
+.entry-category-design{background:#5aba59}
+.entry-category-pure{background:#4d85d1}
+.entry-category-yui{background:#8156a7}
+.entry-category-js{background:#df2d4f}
+.entry-images{margin:1em 0}
+.entry-image-meta{margin-top:-3.5em;margin-left:1em;color:#fff;text-shadow:0 1px 1px #333}
+.footer{padding:1em 0;text-align:center;border-top:1px solid #ddd}
+.footer a{font-size:80%;color:#ccc}
+.footer .pure-menu a:hover,.footer .pure-menu a:focus{background:0}
+@media(min-width:48em){
+    .content{margin-left:25%;padding:2em 3em 0}
+    .header{margin:80% 2em 0;text-align:right}
+    .sidebar{position:fixed;top:0;bottom:0}
 }

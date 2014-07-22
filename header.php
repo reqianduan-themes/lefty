@@ -13,6 +13,7 @@ Date: 2014-07-12
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="generator" content="西瓜宝宝 1.0">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/base.min.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/typography.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
 
 	<!--[if lte IE 8]>
